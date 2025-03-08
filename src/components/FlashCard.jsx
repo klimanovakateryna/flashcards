@@ -22,11 +22,6 @@ const FlashCard = () => {
     setIndex(randomIndex);
   };
 
-  const prevCard = () => {
-    setIsFlipped(false);
-    setIndex((index - 1 + cards.length) % cards.length);
-  };
-
   const handleClick = () => {
     setIsFlipped(!isFlipped);
   };
@@ -37,12 +32,11 @@ const FlashCard = () => {
     <>
       <div className="header">
         <div className="text-container">
-        <h1 className="title">GUESS RETRO GAME</h1>
-        <p className="description">
-          Test your retro gaming knowledge by guessing the classic arcade game from its image.
-        </p>
-      
-        <p className="card-info">Total Cards: {cards.length}</p>
+          <h1 className="title">GUESS RETRO GAME</h1>
+          <p className="description">
+            Test your retro gaming knowledge by guessing the classic arcade game from its image.
+          </p>
+          <p className="card-info">Total Cards: {cards.length}</p>
         </div>
       </div>
       <div className="card-container" onClick={handleClick}>
@@ -58,8 +52,7 @@ const FlashCard = () => {
         </div>
       </div>
       <div className="button-container">
-        <button onClick={prevCard} disabled={index === 0}>←</button>
-        <button onClick={nextCard} disabled={index === cards.length - 1}>→</button>
+        <button onClick={nextCard}>→</button>
       </div>
     </>
   );
