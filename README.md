@@ -21,8 +21,7 @@ The following **required** functionality is completed:
 
 Here's a walkthrough of implemented user stories:
 
-![Video Walkthrough]!![image](https://github.com/user-attachments/assets/eb47c87d-102e-4de5-bb83-0a547ad22b37)
-
+![Video Walkthrough](https://github.com/user-attachments/assets/eb47c87d-102e-4de5-bb83-0a547ad22b37)
 
 GIF created with Chrome Capture
 
