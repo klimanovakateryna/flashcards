@@ -3,8 +3,7 @@
 
 Submitted by:  **Kateryna Klimanova**
 
-
-This web app: **Flashcards: Guess Retro Game is an interactive web application built with React, where users test their retro gaming knowledge by flipping cards to reveal the names of classic arcade games.**
+This web app: **Veni Vici is a web application that fetches and displays random art data from an external API.**
 
 Time spent: **1.5** hours spent in total
 
